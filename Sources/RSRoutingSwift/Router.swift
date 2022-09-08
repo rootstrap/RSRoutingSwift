@@ -20,7 +20,7 @@ public protocol Route {
   var transitionConfigurator: TransitionConfigurator? { get }
 }
 
-extension Route {
+public extension Route {
   var transitionConfigurator: TransitionConfigurator? {
     nil
   }
